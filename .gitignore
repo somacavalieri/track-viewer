@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+
+# Build / artefatos
+dist/
+*.tsbuildinfo
+
+# Ambiente e segredos (.env.example fica versionado)
+.env
+.env.local
+.env.*.local
+
+# macOS / Google Drive
+.DS_Store
+.Spotlight-V100
+.Trashes
+Icon?
+*.icloud
+
+# Logs
+*.log
+npm-debug.log*
